@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bridger.Products.Application\Bridger.Products.Application.csproj" />
+    <ProjectReference Include="..\Bridger.Products.Infra.Data\Bridger.Products.Infra.Data.csproj" />
+    <ProjectReference Include="..\Bridger.Products.Infra.ExternalServices\Bridger.Products.Infra.ExternalServices.csproj" />
+  </ItemGroup>
+
+</Project>
